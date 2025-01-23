@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>Personal Data</title>
+    </head>
+
+    <body>
+        <form>
+            <fieldset style="background-color: rgb(162, 2, 2);">
+                <legend style="background-color: 0A97B0;">Personal Data</legend>
+
+                <br />
+
+                <fieldset style="background-color: FF9D23;">
+                    <legend style="background-color: 3FA2F6; height: 55px;">YourName</legend>
+
+                    <br />
+                    <br />
+
+                    <table>
+                        <tr>
+                            <td> <label for="fName">First Name</label> </td>
+                            <td>:</td>
+                            <td> <input type="text" id="fName" name="FirstName" placeholder="ex ahmed"> </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="lName">Last Name</label> </td>
+                            <td>:</td>
+                            <td> <input type="text" id="lName" name="LastName" placeholder="ex bahnasy"> </td>
+                        </tr>
+                    </table>
+                </fieldset>
+
+                <br />
+                <br />
+                <br />
+
+                <table>
+                    <tr>
+                        <td> <label for="phoneNum">Your Phone</label> </td>
+                        <td>:</td>
+                        <td> <input type="tel" id="phoneNum" name="Phone"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="email">Email</label> </td>
+                        <td>:</td>
+                        <td> <input type="email" id="email" name="Email"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="pass">Password</label> </td>
+                        <td>:</td>
+                        <td> <input type="password" id="pass" name="Password"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="repass">re-Password</label> </td>
+                        <td>:</td>
+                        <td> <input type="password" id="repass" name="re-Password"> </td>
+                    </tr>
+                </table>
+
+                <br />
+                <br />
+                <br />
+
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <br />
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+                <br />
+                <br />
+
+                <input type="checkbox" id="student" name="status" value="Student">
+                <label for="student">Student</label>
+                <br />
+                <input type="checkbox" id="graduated" name="status" value="Graduated">
+                <label for="graduated">Graduated</label>
+                <br />
+                <br />
+
+
+                <select name="university">
+                    <optgroup label="Public Universities">
+                        <option value="cairoUniversity">Cairo University</option>
+                    </optgroup>
+                    <optgroup label="International Universities">
+                        <option value="BUE">BUE</option>
+                        <option value="AUC" selected>AUC</option>
+                    </optgroup>
+                    <optgroup label="Private Universities" disabled>
+                        <option value="futureUniversity">Future University in Egypt</option>
+                        <option value="MUST">MUST</option>
+                        <option value="nileUniversity">Nile University</option>
+                    </optgroup>
+                </select>
+
+                <br />
+                
+                <button type="submit" style="background: linear-gradient(to bottom,rgb(207, 206, 206), rgb(123, 122, 122), black,black); color:white; width:70px;">Submit</button>
+
+
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </fieldset>
+        </form>
+    </body>
+</html>
